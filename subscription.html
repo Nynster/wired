@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Connexion - Wired</title>
+    <title>Inscription - Wired</title>
     <link href="style.css" rel="stylesheet">
 </head>
 
@@ -20,18 +20,44 @@
         </div>
     </header>
 
-    <p id="p_test">Bonjour</p>
+    <!--IMAGE MILWAW-->
+    <img src="pictures/milwaw_panneau_final.png" id="pic_milwaw_subscription" title="Milwaw: Créateur du site">
+
+    <!--IMAGE MOUNA-->
+    <img src="pictures/panneau_mouna_final.png" id="pic_mouna_subscription" title="Mouna: Experte en wired">
 
     <!--FORM Subscription-->
-    <form action="" method="POST" id="form_subscription">
-        <div id="box_form_subscription">
-            <h1>Inscription</h1>
-            <input type="mail" name="mail" placeholder="Votre mail" required>
-            <input type="text" name="username" placeholder="Votre pseudo" required>
-            <input type="password" name="password" placeholder="Votre mot de passe" required>
-            <input type="password" name="password" placeholder="Confirmez votre mot de passe" required>
-            <input type="submit" value="Inscrivez-vous">
-        </div>
-    </form>
+    <div id="form_subscription">
+        <form action="" method="POST" id="box_form_subscription">
+            <h1 id="title_form_subscription">Inscription</h1>
+            <input class="input_form_subscription" type="mail" name="mail" placeholder="Votre mail" required>
+            <input class="input_form_subscription" type="text" name="username" placeholder="Votre pseudo" required>
+            <input class="input_form_subscription" type="password" name="password" placeholder="Votre mot de passe"
+                required>
+            <input class="input_form_subscription" type="password" name="password"
+                placeholder="Confirmez votre mot de passe" required>
+            <input id="submit_form_subscription" type="submit" value="Inscrivez-vous">
+        </form>
+    </div>
+
+    <!--Pied de page index-->
+    <div id="footer_index">
+        <footer>
+            <h1 id="title_footer_index">Rejoignez-nous</h1>
+            <div id="pic_footer">
+                <figure>
+                    <a href="https://www.habbocity.fr" target="_blank"><img src="pictures/logo_city.jpg" width="50px"
+                            height="50px" title="habbocity"></a>
+                    <figcaption class="text_pic_footer_index">Habbocity</figcaption>
+                </figure>
+                <figure>
+                    <a href="https://discord.gg/yxPaEmE" target="_blank"><img src="pictures/logo_discord.png"
+                            width="50px" height="50px" title="discord"></a>
+                    <figcaption class="text_pic_footer_index">Discord</figcaption>
+                </figure>
+            </div>
+        </footer>
+    </div>
 </body>
+
 </html>

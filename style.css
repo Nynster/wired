@@ -298,3 +298,84 @@ article p{
     color:white;
 }
 
+
+
+
+
+/*SUBSCRIPTION*/
+
+/*FORM SUBSCRIPTION*/
+#form_subscription{
+    background-image: url('pictures/pixel_univers.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+#box_form_subscription{
+    width: 300px;
+    height: 450px;
+    background-color: white;
+    border-radius: 25px;
+    filter: drop-shadow(5px 5px 3px black);
+    overflow: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#title_form_subscription{
+    font-size: 30px;
+    padding: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.input_form_subscription{
+    padding: 18px;
+    font-size: 16px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 10px;
+    border-radius: 30px;
+    border: 0.3px solid black;
+}
+
+#submit_form_subscription{
+    margin: 7px;
+    padding: 10px;
+    font-size: 18px;
+    text-align: center;
+    background-color:hsl(106, 96%, 34%);
+    border-radius: 10px;
+    border: 1px solid black;
+    width: 230px;
+    font-weight: bold;
+    cursor:pointer;
+}
+#submit_form_subscription:hover{
+    transform:translateY(5px);
+    text-decoration: underline;
+    filter: brightness(1.1);
+}
+
+
+/*IMAGE MILWAW*/
+#pic_milwaw_subscription{
+    position: absolute;
+    height: 400px;
+    z-index: 5;
+    top: 500px;
+    right:850px;
+}
+
+/*IMAGE MOUNA*/
+#pic_mouna_subscription{
+    position: absolute;
+    height: 400px;
+    z-index: 5;
+    top: 510px;
+    left: 850px;
+}
