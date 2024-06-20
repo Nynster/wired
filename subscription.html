@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Inscription - Wired</title>
     <link href="style.css" rel="stylesheet">
+    <script src="script_subscription.js"></script>
 </head>
 
 <body>
@@ -32,10 +33,16 @@
             <h1 id="title_form_subscription">Inscription</h1>
             <input class="input_form_subscription" type="mail" name="mail" placeholder="Votre mail" required>
             <input class="input_form_subscription" type="text" name="username" placeholder="Votre pseudo" required>
-            <input class="input_form_subscription" type="password" name="password" placeholder="Votre mot de passe"
+            <div id="password_eye_one_subscription">
+            <input class="input_form_subscription" id="password_one_form_subscription" type="password" name="password" placeholder="Votre mot de passe"
                 required>
-            <input class="input_form_subscription" type="password" name="password"
+                <img src="pictures/eye_barre.png" id="eye_one_form_subscription" onClick="change1()">
+            </div>
+            <div id="password_eye_two_subscription">
+                <input class="input_form_subscription" id="password_two_form_subscription" type="password" name="password"
                 placeholder="Confirmez votre mot de passe" required>
+                <img src="pictures/eye_barre.png" id="eye_two_form_subscription" onClick="change()">
+            </div>
             <input id="submit_form_subscription" type="submit" value="Inscrivez-vous">
         </form>
     </div>

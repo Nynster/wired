@@ -343,6 +343,24 @@ article p{
     border: 0.3px solid black;
 }
 
+#eye_one_form_subscription{
+    height: 30px;
+    position: absolute;
+    top: 247px;
+    right: 52px;
+    background-color: white;
+    padding: 2px;
+}
+
+#eye_two_form_subscription{
+    height: 30px;
+    position: absolute;
+    top: 329px;
+    right: 52px;
+    background-color: white;
+    padding: 2px;
+}
+
 #submit_form_subscription{
     margin: 7px;
     padding: 10px;
@@ -378,4 +396,15 @@ article p{
     z-index: 5;
     top: 510px;
     left: 850px;
+}
+
+@media screen and (max-width: 1100px){
+#pic_milwaw_subscription{
+    display: none;
+}
+
+/*IMAGE MOUNA*/
+#pic_mouna_subscription{
+    display: none;
+}
 }
