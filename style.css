@@ -356,9 +356,15 @@ article p{
     height: 30px;
     position: absolute;
     top: 329px;
-    right: 52px;
+    right: 56px;
     background-color: white;
     padding: 2px;
+}
+
+#message_form{
+    font-size: 16px;
+    padding: 5px;
+    color: black;
 }
 
 #submit_form_subscription{

@@ -7,6 +7,7 @@
     <title>Inscription - Wired</title>
     <link href="style.css" rel="stylesheet">
     <script src="script_subscription.js"></script>
+    <script src="script_2_subscription.js"></script>
 </head>
 
 <body>
@@ -31,18 +32,19 @@
     <div id="form_subscription">
         <form action="" method="POST" id="box_form_subscription">
             <h1 id="title_form_subscription">Inscription</h1>
-            <input class="input_form_subscription" type="mail" name="mail" placeholder="Votre mail" required>
+            <input class="input_form_subscription" type="text" name="mail" placeholder="Votre mail" required>
             <input class="input_form_subscription" type="text" name="username" placeholder="Votre pseudo" required>
             <div id="password_eye_one_subscription">
-            <input class="input_form_subscription" id="password_one_form_subscription" type="password" name="password" placeholder="Votre mot de passe"
+            <input class="input_form_subscription" id="password_one_form_subscription" type="password" name="password1" placeholder="Votre mot de passe"
                 required>
                 <img src="pictures/eye_barre.png" id="eye_one_form_subscription" onClick="change1()">
             </div>
             <div id="password_eye_two_subscription">
-                <input class="input_form_subscription" id="password_two_form_subscription" type="password" name="password"
-                placeholder="Confirmez votre mot de passe" required>
-                <img src="pictures/eye_barre.png" id="eye_two_form_subscription" onClick="change()">
+                <input class="input_form_subscription" id="password_two_form_subscription" type="password" name="password2"
+                placeholder="Confirmez votre mot de passe" required onblur="checkPassword()">
+                <img src="pictures/eye_barre.png" id="eye_two_form_subscription" onClick="change2()">
             </div>
+            <p id="message_form"></p>
             <input id="submit_form_subscription" type="submit" value="Inscrivez-vous">
         </form>
     </div>

@@ -1,3 +1,4 @@
+//Voir le premier mot de passe inscrit
 let e=true;
 function change1(){
     if(e){
@@ -9,8 +10,9 @@ function change1(){
         document.getElementById("eye_one_form_subscription").src="pictures/eye_barre.png";
         e=true;
     }
-}
+};
 
+//Voir le deuxième mot de pass inscrit
 let i=true;
 function change2(){
     if(i){
@@ -22,4 +24,4 @@ function change2(){
         document.getElementById("eye_two_form_subscription").src="pictures/eye_barre.png";
         i=true;
     }
-}
+};
